@@ -6,7 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="button">Gerar pedido</button>
-    <script src="script.js"></script>
+    <h1>Restaurante</h1>
+    <h4>Escolha os pratos que deseja pedir</h4>
+    <div class="box">
+        <div class="options">
+            <button id="button1" class="objects2" onclick="addTime(500)">Salada Caesar</button>
+            <button id="button2" class="objects2" onclick="addTime(6000)">Lasanha</button>
+            <button id="button3" class="objects2" onclick="addTime(2000)">Pizza</button>
+            <button id="button4" class="objects2" onclick="addTime(1000)">Hambúrguer</button>
+            <button id="button5" class="objects2" onclick="addTime(500)">Sorvete</button>
+            <button id="button6" class="objects2" onclick="addTime(2000)">Bolo de Chocolate</button>
+        </div>
+        <div class="line">
+            <button id="button">Gerar pedido</button>
+            <p id="output"></p>
+        </div>  
+    </div>
 </body>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
 </html>
